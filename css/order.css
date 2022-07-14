@@ -1,0 +1,452 @@
+
+:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+
+
+
+form{
+    height: 1450px;
+    width: 800px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 140%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+  
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #3e4b40;
+    color: #ffffff;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #3e4b40;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+
+
+
+body
+{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: #3e4b40;
+}
+.container
+{
+width: 80%;
+margin: auto;
+overflow: hidden;
+
+}
+ul{
+    margin: 0;
+    padding: 0%;
+    
+}
+
+header a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+header li {
+    float: right;
+    display: inline;
+    padding: 0 10px 0 10px;
+    
+
+}
+header nav {
+    float:right;
+    margin-top: 0px;
+    margin-right: 50px;
+    position: fixed;
+    z-index: 3;
+}
+header .current a
+{
+    color: #f2e6d2;
+    font-weight: inherit;
+}
+header a:hover
+{
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+
+
+
+body {
+    background-color: #3e4b40;
+    background: url(../OA/images/fffff.jpg) no-repeat center center fixed; 
+     background-size: cover;
+   } 
+   
+#logo{
+height: 50px;
+width: 65px;
+padding-left: 80px;
+padding-top: 10px;
+position: fixed;
+z-index: 3;
+
+}
+#rect{ height: 60px;
+    width: 1800px;
+    position: fixed;
+    padding-left:56px;
+    padding-top: 0px;
+    z-index: 2;
+    opacity: 0.65;
+}
+#logobox{
+    width: 0%;
+    height: 0%;
+    float: left;
+}
+#logo{
+height: 50px;
+width: 65px;
+padding-left: 67px;
+padding-top: 6px;
+position: fixed;
+}
+#logo1{
+    height: 616px;
+    width: 55px;
+    position: fixed;
+    padding-left: 0px;
+    padding-top: 0px;
+
+    }
+#line{
+        height: 4px;
+        width: 1800px;
+        position: fixed;
+        padding-left: 55px;
+        padding-top: 60px;
+        z-index: 2;
+    
+        }
+
+#home {height: 27px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 14px ;
+
+}
+#list {height: 27px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 54px ;
+
+}
+#insta {height: 27px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 104px ;
+
+}
+#face {height: 37px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 154px ;
+
+}
+#whats {height: 27px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 204px ;
+
+}
+#tele {height: 100px;
+    width: 19px;
+    position: fixed;
+    padding-left:20px;
+    padding-top: 250px ;
+
+}
+#email {height: 180px;
+    width: 19px;
+    position: fixed;
+    padding-left:20px;
+    padding-top: 390px ;
+
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+ 
+  padding: 5px 20px 15px 20px;
+  
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #3e4b40;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #4b5f4e;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+.calendar{
+    display:inline-grid;
+    justify-content:center;
+    align-items:center;
+  
+    padding-left:80px;
+    border-radius:5px;
+   
+  }
+  .month{
+  
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      font-size:30px;
+      margin-bottom:20px;
+      margin-left: 20px;
+      font-weight:300;
+      color: #4b5f4e;
+  }
+  .year{
+        font-weight:600;
+        margin-left:10px;
+        color: #ffffff;
+      }
+      
+  
+     
+    
+    .days{
+    letter-spacing: 25px;
+      
+        display:inline;
+      color:#4b5f4e;
+      font-weight:600;
+    
+  
+    }
+      span{
+        width:50px;
+        justify-self:center;
+        align-self:center;
+        text-align:center;
+      }
+    
+    
+    .dates{
+      display:grid;
+      grid-template-columns: repeat(7, 1fr);
+      font-weight:600;
+      font-size: large;
+    }
+    .arrow1{
+      font-weight:600;
+      font-size: large;
+      margin-left: 100px;
+      box-shadow:inset 0px 0px 0px 2px #4b5f4e;
+    }
+    .arrow2{
+      font-weight:600;
+      box-shadow:inset 0px 0px 0px 2px #4b5f4e;
+      font-size: large;
+     margin-bottom: 20px;
+    }
+
+  
+      button{
+        cursor:pointer;
+        outline:0;
+        border:0;
+        background:transparent;
+        font-family: 'Montserrat', sans-serif;
+        font-size:16px;
+        justify-self:center;
+        align-self:center;
+        width:50px;
+        height:50px;
+        border-radius:50px;
+        margin:2px;
+        transition-duration:.2s;
+      }
+        .today{
+          box-shadow:inset 0px 0px 0px 2px #4b5f4e;
+        }
+        
+        :first-child{
+          grid-column:3;
+        }
+       
+        
+        :focus{
+          background:#4b5f4e;
+          color:#fff;
+          font-weight:600;
+        }
+      
+    
+  .day{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+  }
